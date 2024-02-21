@@ -1,0 +1,164 @@
+/* ----------------header-------------------------- */
+#header{
+    background-color: rgb(69, 64, 64);
+    height: 100px;
+    /* width: 109rem; */
+    border: 1px solid #ccc;
+}
+/* ----------------Div logo------------------------ */
+.logo{
+    font-size: 30px;
+    margin-left: 200px;
+    padding-top: 30px;
+    color:white;
+}
+/* -----------------span----------------------- */
+.span1{
+    color:red;
+}
+.span2{
+    color: red;
+}
+/* ---------------nav ul------------------------------- */
+nav ul {
+    list-style: none;
+    margin-top: -25px;
+    margin-left: 19rem;
+}
+/* ----------------nav ul li--------------------------------- */
+nav ul li {
+    display: inline;
+    margin-right: 26px;
+    font-size: 20px;
+}
+/* ------------------nav a-------------------------- */
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/* ---------------Button--------------------------- */
+.button1{
+    float: right;
+    margin-right: 14rem;
+    margin-top: -4rem;
+    border: 2px solid red;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
+/* ----------------------Hero section--------------------------- */
+.hero-section{
+    background-color: rgb(41, 38, 38);
+    height: 50rem;
+    /* width: 109rem; */
+}
+/* -------------Div Lines----------------------------- */
+.lines1{
+    padding-top: 10rem;
+    padding-left: 14rem;
+    color: white;
+    font-size: 23px;
+}
+/* -----------------H1------------------------------- */
+.h1{
+    font-size: 50px;
+}
+.line1{
+    margin-left: 60px;
+}
+/*----------------Span Color--------------------------- */
+.word-color1{
+    color: red;
+}
+/* -------------Button--------------------------------- */
+.button2{
+    border: 2px;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 3px;
+    background-color: rgb(168, 11, 11);
+    color: white;        
+}
+/* --------------------Div Image--------------------------------- */
+.images1{
+    float: right;
+    margin-top: -25rem;
+    margin-right: 15rem;
+}
+.img1{
+    height: 28rem;
+    width: 23rem;
+    border-radius: 6%;
+}
+/* ------------------Service Section--------------------------------- */
+.service-section{
+    background-color: rgb(69, 64, 64);
+    height: 40rem;
+    /* width: 109rem; */
+    padding-top: 30px;
+}
+/* -------------------Service section ul li a------------------------------- */
+.service-section ul {
+    margin-left: 20rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: -30px;
+    list-style: none;
+    border-color: black;
+}
+.service-section ul li {
+    display: inline;
+    margin-right: 71px;
+    font-size: 30px;
+}
+.service-section a {
+    text-decoration: none;
+    color: #fff;
+}
+/* -------------------Div Lines-------------------------------------- */
+.lines2{
+  margin-left: 48rem; 
+  margin-top: 8rem;
+}
+.line2{
+    margin-left: 30px;
+    color: red;
+}
+.heading{
+    font-size: 40px;
+    margin-top: -10px;
+    color: white;
+}
+.line3{
+    color: white;
+}
+/* -----------------Div List------------------------------ */
+.list{
+    margin-left: 40px;
+}
+/* ---------------heading and strong-------------------------------- */
+.strong1{
+    color: white;
+}
+.strong2{
+    color: white;
+}
+.strong3{
+    color: white;
+}
+.strong4{
+    color: white;
+}
+/* --------------------Service Section Button----------------------------- */
+.button3{
+    margin-left: 20rem;
+    margin-top: 8px;
+    border: 1px;
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}

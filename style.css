@@ -162,3 +162,20 @@ nav a {
     color: white;
     border-radius: 3px;
 }
+.box1{
+    height: 366px;
+    margin-top: -27rem;
+    width: 56px;
+    border: red 14px solid;
+    margin-left: 11rem;
+    
+
+}
+.images2{
+    margin-top: -22rem;
+    margin-left: 14rem;
+}
+.image2{
+    height: 20rem;
+    width: 25rem;
+}

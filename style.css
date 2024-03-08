@@ -19,6 +19,10 @@
 .span2{
     color: red;
 }
+/* --------------------nav ul hover---------------------------------- */
+nav ul li a:hover{
+    color: red;
+}
 /* ---------------nav ul------------------------------- */
 nav ul {
     list-style: none;
@@ -51,12 +55,12 @@ nav a {
 /* ----------------------Hero section--------------------------- */
 .hero-section{
     background-color: rgb(41, 38, 38);
-    height: 50rem;
+    height: 40rem;
     /* width: 109rem; */
 }
 /* -------------Div Lines----------------------------- */
 .lines1{
-    padding-top: 10rem;
+    padding-top: 7rem;
     padding-left: 14rem;
     color: white;
     font-size: 23px;
@@ -74,23 +78,26 @@ nav a {
 }
 /* -------------Button--------------------------------- */
 .button2{
-    border: 2px;
+    border: red 2px solid;
     height: 3rem;
     width: 12rem;
+    background-color: rgb(184, 30, 30);
     border-radius: 3px;
-    background-color: rgb(168, 11, 11);
-    color: white;        
+    color: white;
+    font-weight: 900;      
 }
 /* --------------------Div Image--------------------------------- */
-.images1{
+div.images1{
     float: right;
     margin-top: -25rem;
     margin-right: 15rem;
+
 }
 .img1{
     height: 28rem;
     width: 23rem;
-    border-radius: 6%;
+    border-radius: 30px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)
 }
 /* ------------------Service Section--------------------------------- */
 .service-section{
@@ -158,24 +165,121 @@ nav a {
     border: 1px;
     height: 40px;
     width: 100px;
-    background-color: red;
+    background-color: rgb(241, 26, 26);
     color: white;
     border-radius: 3px;
+    border: red 1px solid;
+
 }
 .box1{
-    height: 366px;
+    height: 380px;
     margin-top: -27rem;
     width: 56px;
     border: red 14px solid;
     margin-left: 11rem;
+}
+.box3{
+    margin-top: -23.66rem;
+    margin-left: 14rem;
+    max-width: 400px;
+    background-color: rgb(41, 38, 38);
+    overflow: hidden;
+}
+/* --------------------Image 2--------------------------------- */
+.image2{
+    height: 22rem;
+    width: 20rem;
+    border-radius: px;
+    z-index: auto;
+}
+.box2{
+    border:  rgb(41, 38, 38) 2px solid;
+    height: 50px;
+    width: 100px;
+    margin-top: -5rem;
+    margin-left: 8rem;
+    background-color: rgb(41, 38, 38);
     
+}
+/* ----------------------Skill Section-------------------------------------- */
+.skill-section{
+    background-color: rgb(41, 38, 38);
+    height: 30rem;
+    display: flex;
+    align-items: center;
 
 }
-.images2{
-    margin-top: -22rem;
-    margin-left: 14rem;
+.div-paragraph{
+    margin-left: 20rem;
+    padding-top: 3rem;
 }
-.image2{
-    height: 20rem;
-    width: 25rem;
+.my-skill{
+    color: red;
+    margin-left: 35px;
 }
+.skill-section-design{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skill-section-pragragh{
+    font-size: 18px;
+    
+}
+/* ---------------------Button------------------------- */
+.read-more{
+    border: 2px solid red;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 900;
+    background-color: rgb(241, 25, 25);
+    border-radius: 3px;
+    color: white;
+}
+.my-skill ~ p{
+    color: white;
+}
+
+/* --------------------Job Experience---------------------------------------- */
+.job-experience{
+    background-color: rgb(69, 64, 64);
+    height: 30rem;
+    text-align: center;
+}
+.job-experience-word{
+    padding-top: 10rem;
+}
+.job-experience-pixels{
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+.item1{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    background-color: rgb(69, 64, 64);
+    align-items: center;
+    margin-left: 59px;
+    margin-bottom: 52px;
+}
+.item1 h2{
+    margin:-138px -143px -47px 95px;
+}
+
+
+.figma-box1{
+    margin-right: 60px;
+    width: 11rem;
+    height: 4px;
+    background-color: white;
+    margin-top: 80px;
+}
+ /* .figma-box2{
+    margin-right: 60px;
+    width: 11rem;
+    height: 4px;
+    background-color: red;
+    margin-top: 80px;
+} */
